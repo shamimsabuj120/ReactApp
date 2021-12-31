@@ -6,7 +6,7 @@ let Book = props =>{
     // alada info dite hole props.children use korte hoi
     return(
         <div className="Book">
-            <h1 onClick={props.change}> BookName: {props.BookName} and Writer: {props.Writer} </h1>
+            <h1 onClick={props.delete}> BookName: {props.BookName} and Writer: {props.Writer} </h1>
             
             <input type="text" onChange={props.inputName} value={props.BookName}/>
         </div>
